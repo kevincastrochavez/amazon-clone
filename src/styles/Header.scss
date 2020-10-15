@@ -55,13 +55,19 @@
 
       &-basket {
         display: flex;
+        align-items: flex-end;
         justify-content: space-evenly;
         color: white;
+
+        & svg {
+          font-size: 3rem;
+        }
       }
     }
 
     &-basketCount {
       margin: 0 1rem;
+      font-size: 2rem;
     }
   }
 }
