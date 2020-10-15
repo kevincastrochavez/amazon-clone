@@ -1,0 +1,67 @@
+.header {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  background-color: $black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  &__logo {
+    width: 10rem;
+    object-fit: contain;
+    margin: 1.8rem 2rem 0;
+  }
+
+  &__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+    &-input {
+      height: 1.2rem;
+      padding: 1rem;
+      border: none;
+      width: 100%;
+      border-radius: 0;
+    }
+
+    &-icon {
+      padding: 0.5rem;
+      height: 2.2rem !important;
+      background-color: $yellow;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-evenly;
+
+    &-option {
+      display: flex;
+      flex-direction: column;
+      margin: 0 1rem;
+      color: white;
+
+      &-lineOne {
+        font-size: 1rem;
+        font-weight: 0;
+      }
+
+      &-lineTwo {
+        font-size: 1.3rem;
+        font-weight: 800;
+      }
+
+      &-basket {
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+      }
+    }
+
+    &-basketCount {
+      margin: 0 1rem;
+    }
+  }
+}
