@@ -1,0 +1,31 @@
+.checkoutProduct {
+  display: flex;
+  margin: 0 2rem;
+
+  &__image {
+    object-fit: contain;
+    width: 18rem;
+    height: 18rem;
+  }
+
+  &__info {
+    padding-left: 2rem;
+
+    &-title {
+      font-size: 1.7rem;
+      font-weight: 800;
+    }
+
+    &-rating {
+      display: flex;
+    }
+
+    & button {
+      background: #f0c14b;
+      border: 0.1rem solid;
+      margin-top: 1rem;
+      border-color: #a88734 #9c7e31 #846a29;
+      color: #111;
+    }
+  }
+}
